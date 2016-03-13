@@ -3,7 +3,7 @@
 - name: Ensure libselinux-python is installed
   yum: name=libselinux-python
 
-- name: Add repository epel
+- name: Install EPEL repo
   yum: name=epel-release state=present
 
 - name: Install dependencies
